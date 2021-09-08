@@ -178,9 +178,9 @@ endfunction
 
 setglobal smarttab
 
-if !exists('g:did_indent_on')
-  filetype indent on
-endif
+"if !exists('g:did_indent_on')
+"  filetype indent on
+"endif
 
 function! SleuthIndicator() abort
   let sw = &shiftwidth ? &shiftwidth : &tabstop
